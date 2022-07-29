@@ -1,16 +1,18 @@
-// import "./App.css";
+import "./App.css";
 import React from "react";
-import AboutPage from "./LandingPage/Components/AboutPage";
-import Footer from "./LandingPage/Components/Footer";
-import Header from "./LandingPage/Components/Header";
-import styles from "./App.css";
+import Footer from "./LandingPageDemo/Components/Footer";
+import ImageSlider from "./LandingPageDemo/Components/ImageSlider";
+import ProductCard from "./LandingPageDemo/Components/ProductCard";
+import LandingHeader from "./LandingPageDemo/Components/LandingHeader";
+
 function App() {
   return (
     <React.Fragment>
-      <div className={styles.base}>
-        <Header />
-        <AboutPage />
-        {/* <Footer /> */}
+      <div className="rootWrapper">
+        <LandingHeader />
+        <ImageSlider />
+        <ProductCard />
+        <Footer />
       </div>
     </React.Fragment>
   );

@@ -31,12 +31,13 @@
   font-weight: 300;
 }
 .footerWrapper {
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
-.footerContent {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.socialMediaWrapper {
+  width: 20px;
+  height: 20px;
+}
+.socialMedia {
+  display: flex;
 }
