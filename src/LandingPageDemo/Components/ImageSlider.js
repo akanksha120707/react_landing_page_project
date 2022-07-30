@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import "./css/ImageSlider.css";
 
 const SliderData = [
-  "/assets/banner1.jpg",
-  "/assets/banner2.jpg",
-  "/assets/banner3.jpg",
-  "/assets/banner4.jpg",
-  "/assets/banner5.webp",
-  "/assets/banner8.webp",
-  "/assets/banner7.webp"
+  "/assets/shoppingBanner1.webp",
+  "/assets/shoppingBanner2.webp",
+  "/assets/shoppingBanner3.webp",
+  "/assets/shoppingBanner4.jpg",
+  "/assets/shoppingBanner5.jpg",
+  "/assets/shoppingBanner6.webp"
 ];
 
 function ImageSlider(props) {
