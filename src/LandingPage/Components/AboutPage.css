@@ -1,0 +1,10 @@
+.aboutPageWrapper {
+  font-family: sans-serif;
+  width: 100%;
+}
+.heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}

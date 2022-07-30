@@ -1,0 +1,39 @@
+.baseWrapper {
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.rightWrapper {
+  color: white;
+  font-family: "Inconsolata", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.homeWrapper {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 10px 10px;
+  width: 400px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Change background color of buttons on hover */
+.homeWrapper:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.homeWrapper home.active {
+  background-color: #ccc;
+}
