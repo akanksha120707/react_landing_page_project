@@ -116,7 +116,7 @@ function Footer(props) {
       <div className="socialMediaAndUpdate">
         <div className="language">English</div>
         <div className="followUs">
-          Follow And Stay Updated{" "}
+          Follow And Stay Updated
           <span className="socialMedia">
             {socialMedia.map((i, id) => {
               return (
